@@ -21,6 +21,8 @@
 		40EA280918E9657300DDD970 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40EA27EB18E9657300DDD970 /* UIKit.framework */; };
 		40EA281118E9657300DDD970 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40EA280F18E9657300DDD970 /* InfoPlist.strings */; };
 		40EA281318E9657300DDD970 /* CheckNetworkStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA281218E9657300DDD970 /* CheckNetworkStatusTests.m */; };
+		40EA281E18E9657F00DDD970 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA281D18E9657F00DDD970 /* Reachability.m */; };
+		40EA282118E96D9A00DDD970 /* CheckInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA282018E96D9A00DDD970 /* CheckInternet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		40EA280E18E9657300DDD970 /* CheckNetworkStatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckNetworkStatusTests-Info.plist"; sourceTree = "<group>"; };
 		40EA281018E9657300DDD970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40EA281218E9657300DDD970 /* CheckNetworkStatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckNetworkStatusTests.m; sourceTree = "<group>"; };
+		40EA281C18E9657F00DDD970 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		40EA281D18E9657F00DDD970 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		40EA281F18E96D9A00DDD970 /* CheckInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInternet.h; sourceTree = "<group>"; };
+		40EA282018E96D9A00DDD970 /* CheckInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInternet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 		40EA27ED18E9657300DDD970 /* CheckNetworkStatus */ = {
 			isa = PBXGroup;
 			children = (
+				40EA281C18E9657F00DDD970 /* Reachability.h */,
+				40EA281D18E9657F00DDD970 /* Reachability.m */,
 				40EA27F618E9657300DDD970 /* AppDelegate.h */,
 				40EA27F718E9657300DDD970 /* AppDelegate.m */,
 				40EA27F918E9657300DDD970 /* Main.storyboard */,
@@ -119,6 +127,8 @@
 				40EA27FD18E9657300DDD970 /* ViewController.m */,
 				40EA27FF18E9657300DDD970 /* Images.xcassets */,
 				40EA27EE18E9657300DDD970 /* Supporting Files */,
+				40EA281F18E96D9A00DDD970 /* CheckInternet.h */,
+				40EA282018E96D9A00DDD970 /* CheckInternet.m */,
 			);
 			path = CheckNetworkStatus;
 			sourceTree = "<group>";
@@ -251,7 +261,9 @@
 			files = (
 				40EA27FE18E9657300DDD970 /* ViewController.m in Sources */,
 				40EA27F818E9657300DDD970 /* AppDelegate.m in Sources */,
+				40EA281E18E9657F00DDD970 /* Reachability.m in Sources */,
 				40EA27F418E9657300DDD970 /* main.m in Sources */,
+				40EA282118E96D9A00DDD970 /* CheckInternet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
